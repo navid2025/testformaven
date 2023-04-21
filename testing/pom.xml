@@ -12,8 +12,8 @@
         <repository>
             <name>github-repo</name>
             <id>github</id>
-<!--            <url>https://maven.pkg.github.com/navid2025/ttt</url>-->
-            <url>file://${project.build.directory}/mvn-repo</url>
+            <url>https://maven.pkg.github.com/navid2025/ttt</url>
+<!--            <url>file://${project.build.directory}/mvn-repo</url>-->
         </repository>
     </distributionManagement>
     <properties>
