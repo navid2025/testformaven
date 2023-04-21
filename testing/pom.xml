@@ -10,7 +10,9 @@
 
     <distributionManagement>
         <repository>
-            <id>relaese</id>
+            <name>github-repo</name>
+            <id>github</id>
+<!--            <url>https://maven.pkg.github.com/navid2025/ttt</url>-->
             <url>file://${project.build.directory}/mvn-repo</url>
         </repository>
     </distributionManagement>
@@ -26,6 +28,4 @@
             <version>1.18.24</version>
         </dependency>
     </dependencies>
-
-
 </project>
